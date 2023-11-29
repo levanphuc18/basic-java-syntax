@@ -38,3 +38,28 @@ Garbage Collection:
 Quá trình tự động giải phóng bộ nhớ không sử dụng để tránh rò rỉ bộ nhớ.
 
 
+
+======================================================================================================================================================
+Logging là quá trình ghi lại thông tin cần thiết trong quá trình thực thi của một ứng dụng để giúp theo dõi, phân tích lỗi, và đưa ra kiểm tra hiệu suất. Các thư viện logging trong Java như Log4j, Log4j2 và Logback cung cấp các công cụ để quản lý và ghi log trong ứng dụng Java.
+
+Log4j:
+Mô tả: Log4j là một thư viện logging phổ biến trong cộng đồng Java.
+Đặc điểm:
+Hỗ trợ đa kênh (appenders) như console, file, database.
+Có khả năng cấu hình linh hoạt thông qua file cấu hình XML hoặc properties.
+Cung cấp các mức độ log như DEBUG, INFO, WARN, ERROR, và FATAL.
+
+Log4j2:
+Mô tả: Log4j2 là phiên bản tiếp theo của Log4j, được thiết kế để cải thiện hiệu suất và cung cấp nhiều tính năng mới.
+Đặc điểm:
+Hỗ trợ đa kênh như console, file, database.
+Có khả năng cấu hình linh hoạt thông qua file cấu hình XML, JSON, YAML, hoặc properties.
+Cung cấp các mức độ log và một số tính năng mở rộng so với Log4j.
+
+Logback:
+Mô tả: Logback là một thư viện logging phát triển từ Log4j, với mục tiêu tối ưu hiệu suất.
+Đặc điểm:
+Tích hợp với SLF4J (Simple Logging Facade for Java).
+Hỗ trợ đa kênh như console, file, và nhiều ứng dụng khác.
+Có khả năng cấu hình thông qua file XML hoặc properties.
+Được thiết kế để đơn giản và hiệu quả.
